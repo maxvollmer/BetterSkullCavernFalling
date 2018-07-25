@@ -6,5 +6,5 @@
   "UniqueID": "maxvollmer.betterskullcavernfalling",
   "EntryDll": "BetterSkullCavernFalling.dll",
   "MinimumApiVersion": "2.0",
-  "UpdateKeys": []
+  "UpdateKeys": [ "Nexus:2558" ]
 }
