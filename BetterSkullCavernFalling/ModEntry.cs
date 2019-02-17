@@ -1,9 +1,5 @@
 ﻿using System;
-using Microsoft.Xna.Framework;
 using StardewModdingAPI;
-using StardewModdingAPI.Events;
-using StardewModdingAPI.Utilities;
-using StardewValley;
 
 namespace BetterSkullCavernFalling
 {
@@ -18,7 +14,7 @@ namespace BetterSkullCavernFalling
         {
             // Intercept annoying popup messages when jumping into holes in skull cavern.
             // Shows HUD message instead.
-            SkullCavernFallMessageIntercepter.Intercept();
+            SkullCavernFallMessageIntercepter.Intercept(this.Helper.Reflection);
         }
     }
 }
